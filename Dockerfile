@@ -85,19 +85,6 @@ VOLUME ["/config"]
 
 CMD [ "/etc/firstrun/firstrun.sh" ]
 
-
-############################
-### Build image with MariaDB 
-FROM nomariadb
-ARG GUAC_VER
-LABEL version=$GUAC_VER
-
-RUN apk add mariadb mariadb-client
-
-ADD image-mariadb /
-
-RUN chmod +x /etc/firstrun/mariadb.sh
-
 ### END
 ### To make this a persistent guacamole container, you must map /config of this container
 ### to a folder on your host machine.
