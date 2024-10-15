@@ -6,7 +6,7 @@ Dockerfile for Guacamole 0.9.13 with embedded MariaDB (MySQL) and LDAP authentic
 Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP.
 
 ---
-Author
+Author 
 ===
 
 Based on the work of Zuhkov <zuhkov@gmail.com> and aptalca 
