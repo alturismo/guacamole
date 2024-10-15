@@ -1,6 +1,6 @@
 ### Dockerfile for guacamole
 ### Includes the mysql authentication module preinstalled
-### test 155
+### test 155 compile
 
 ARG GUAC_VER=1.5.5
 
